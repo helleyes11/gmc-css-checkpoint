@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
+*{
+  margin: 0;
+  padding: 0
+}
+h1{ color: white;
+    font-size:60px;
+    background-image: url("https://www.lanutrition.fr/sites/default/files/styles/article_large/public/ressources/pasteque_morceaux.jpg");
+    background-size: cover;
+    padding: 10%;
+    font-family: Brush Script MT, Snell Roundhand, monospace;
+    box-shadow: 5px 5px 0px grey;
+    
+    
+
+}
+
+h2{color: blue;}
+#grey{background-color:lightgray;}
+#darkgrey{ color: white;
+    background-color: darkgray;
+}
+.article{
+  margin-left: 180px;
+  font-size: 48px;
+  font-family: 'Amiri', serif;
+
+}
+
+
+.titletext{
+  font-size: 28px;
+}
+.pos{
+    display: inline-block;
+    width: 48%;
+    height: 360px;
+    font-size: 20px;
+    font-family: 'Amiri', serif;
+    margin-right: 5px;
+    margin-top: 5px;
+
+}
+p{
+  margin-left: 20px;
+  margin-right:20px;
+  padding: 10%;
+
+}
+
+.alltext{
+margin-left: 110px;
+margin-right: 110px;
+}
+
+
+.pos:hover{
+  outline: black solid 3px ;
+  outline-offset: -3px;
+}
